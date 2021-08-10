@@ -1,13 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  background-color: #070b12 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5, h6, p{
+  color:#d9d9d9 !important;
+  margin:0px !important;
+  font-weight: 400;
+}
+
+label{
+  font-family: 'Poppins', sans-serif;
+}
+
+.s-bg{
+  background-color: #0d1117;
+  border:1px solid #30363d;
+  border-radius: 5px;
+}
+
+
+
+.span-color{
+  color:orange;
+}
+/* Section Paddings */
+
+.sp-90{
+  padding:90px 0px;
+}
+.sp-60{
+  padding:60px 0px;
+}
+
+/* Paddings */
+.p-30{
+  padding:30px;
+}
+.p-20{
+  padding:20px;
+}
+.p-15{
+  padding: 15px;
+}
+.p-10{
+  padding:10px;
+}
+.p-20-10{
+  padding:20px 10px;
+}
+.p-20-15{
+  padding:20px 15px;
+}
+
+
+/* Buttons */
+
+.s-btn{
+  outline:none;
+  border:none;
+  background-color: orange;
+  color:black;
+  transition: 0.3s;
+  font-size:14px;
+  font-weight: 500;
+}
+.s-btn:hover{
+  background-color: rgb(212, 138, 0);
+}
+/* Text Align */
+
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+
+/* Margins */
+
+.mb-30{
+  margin-bottom:30px;
+}
+.mb-20{
+  margin-bottom:20px;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+
+/* Headings */
+
+.h-1{
+  font-size:40px;
+}
+.h-2{
+  font-size:30px;
+}
+.h-3{
+  font-size:25px;
+}
+.h-4{
+  font-size:20px;
+}
+.h-5{
+  font-size: 18px;
+}
+.h-6{
+  font-size:16px;
+}
+.paragraph{
+  font-size:14px;
+}
+
+
+/* Font Weights */
+
+.h-bold{
+  font-weight:700;
+}
+
+
+/* ViewPort Heights */
+
+.height-100{
+  height:100vh;
+}
+.height-90{
+  height:90vh;
+}
+.height-80{
+  height:80vh;
+}
+.height-70{
+  height:70vh;
+}
+.height-60{
+  height:60vh;
+}
+.height-50{
+  height:50vh;
+}
+.height-40{
+  height:40vh;
+}
+
+
+/* Flex */
+
+.flex{
+  display:flex;
+}
+.flex-center-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-end{
+  display:flex;
+  justify-content: flex-end;
+}
+.flex-end{
+  display:flex;
+  justify-content: flex-start;
+}
+.flex-space-between{
+  display:flex;
+  justify-content: space-between;
+}
+.flex-space-evenly{
+  display:flex;
+  justify-content: space-evenly;
+}
+.flex-space-around{
+  display: flex;
+  justify-content: space-around;
+}
+.flex-column{
+  flex-direction: column;
+}
+
+
+/* Border Radius */
+.br-5{
+  border-radius: 5px;
+}
+.br-8{
+  border-radius: 8px;
+}
+.br-10{
+  border-radius: 10px;
+}
+.br-15{
+  border-radius: 15px;
+}
+.br-20{
+  border-radius:20px;
+}
+.br-25{
+  border-radius:25px;
+}
+
+
+/* Width */
+.w-100{
+  width:100%;
+}
+.w-90{
+  width:90%;
+}
+.w-80{
+  width:80%;
+}
+.w-70{
+  width:70%;
+}
+.w-60{
+  width:60%;
+}
+.w-50{
+  width:50%;
+}
+
+/* Input Styles */
+
+.label-class{
+  font-size:16px;
+  color:#d9d9d9 !important;
+}
+.form-class{
+  padding:15px !important;
+  background-color: #0d1117 !important;
+  border:1px solid #30363d !important;
+  font-size:16px !important;
+  color:#d9d9d9 !important;
+}
+.form-class:focus{
+  box-shadow: 0 0 0 .25rem rgba(0,0,0,0.5) !important;
+}
+
+/* Sample Divs */
+
+.sample{
+  background-color: #0d1117;
+  height:auto;
+  width:200px;
+  border-radius:15px;
+  border:1px solid #30363d;
+}
+
+
+@media(max-width:420px){
+  .sp-90{
+    padding:60px 0px;
+  }
+  .sp-60{
+    padding:40px 0px;
+  }
 }
